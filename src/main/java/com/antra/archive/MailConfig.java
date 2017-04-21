@@ -14,7 +14,6 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @Configuration
 @ComponentScan
 @EnableAutoConfiguration
-@EnableScheduling
 public class MailConfig {
 
 	@Value("${spring.mail.host}")
